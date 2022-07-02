@@ -14,9 +14,11 @@ module.exports = {
       "black_2": "#11171D",
       "primary_1": "#17395C",
       "primary_2": "#00003D",
+      "primary_9": "#D6D6FF",
       "grey_3": "#828282",
       "grey_4": "#BDBDBD",
       "grey_6": "#F8F8F8",
+      "gray_9": "#18191F",
       "footer_bg": "#0E0A1E",
       "footer_border_color": "#4F4F4F"
     },
