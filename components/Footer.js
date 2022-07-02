@@ -78,7 +78,7 @@ const Footer = () => {
             <h5 className="text-left font-medium text-[1.125rem] md:text-[1.5rem] text-grey_4 ">
             Company
             </h5>
-            <Link href="/"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">About Us</a></Link>
+            <Link href="/about_us"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">About Us</a></Link>
            <Link href="/"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">Privacy Policy</a></Link>
            <Link href="/"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">Terms of Use</a></Link>
           </div>
