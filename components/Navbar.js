@@ -44,10 +44,10 @@ const Navbar = () => {
                 </a>
               </Link>
 
-              <Link href="/">
+              <Link href="/pricing">
                 <a
                   className={`nav-link text-black_2 font-normal text-[1.25rem] ${
-                    router.pathname == "/" ? "active" : ""
+                    router.pathname == "/pricing" ? "active" : ""
                   }`}
                   aria-current="page"
                 >
@@ -55,10 +55,10 @@ const Navbar = () => {
                 </a>
               </Link>
 
-              <Link href="/contact">
+              <Link href="/about_us">
                 <a
                   className={`nav-link text-black_2 font-normal text-[1.25rem] ${
-                    router.pathname == "/contact" ? "active" : ""
+                    router.pathname == "/about_us" ? "active" : ""
                   }`}
                 >
                   About Us

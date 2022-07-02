@@ -15,6 +15,7 @@ module.exports = {
       "black_3": "#0A0A0A",
       "primary_1": "#17395C",
       "primary_2": "#00003D",
+      "primary_4": "#044DA1",
       "primary_9": "#D6D6FF",
       "grey_3": "#828282",
       "grey_4": "#BDBDBD",
