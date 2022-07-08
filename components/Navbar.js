@@ -11,6 +11,10 @@ const Navbar = () => {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
 
+  const routeIndicator = (route) => {
+    return router.pathname == route ? "active" : ""
+  }
+
   return (
     <nav className="navbar sticky top-0 bg-nav_bg py-5 md:py-4 px-5 xl:px-[100px] z-10">
       <div className="flex min-w-full flex-row items-center justify-between">
@@ -35,9 +39,7 @@ const Navbar = () => {
             <div className="flex flex-row gap-16">
               <Link href="/">
                 <a
-                  className={`nav-link text-black_2 font-normal text-[1.25rem] ${
-                    router.pathname == "/" ? "active" : ""
-                  }`}
+                  className={`nav-link text-black_2 font-normal text-[1.25rem] ${routeIndicator("/")}`}
                   aria-current="page"
                 >
                   Home
@@ -46,9 +48,7 @@ const Navbar = () => {
 
               <Link href="/pricing">
                 <a
-                  className={`nav-link text-black_2 font-normal text-[1.25rem] ${
-                    router.pathname == "/pricing" ? "active" : ""
-                  }`}
+                  className={`nav-link text-black_2 font-normal text-[1.25rem] ${routeIndicator("/pricing")}`}
                   aria-current="page"
                 >
                   Pricing
@@ -57,9 +57,7 @@ const Navbar = () => {
 
               <Link href="/about_us">
                 <a
-                  className={`nav-link text-black_2 font-normal text-[1.25rem] ${
-                    router.pathname == "/about_us" ? "active" : ""
-                  }`}
+                  className={`nav-link text-black_2 font-normal text-[1.25rem] ${routeIndicator("/about_us")}`}
                 >
                   About Us
                 </a>
@@ -114,9 +112,7 @@ const Navbar = () => {
             <div ref={ref} className="space-y-9 px-2 pt-2 pb-3 sm:px-3">
               <Link href="/">
                 <a
-                  className={`nav-link text-[18px] text-sm block ${
-                    router.pathname == "/" ? "active" : ""
-                  }`}
+                  className={`nav-link text-[18px] text-sm block ${routeIndicator("/")}`}
                   aria-current="page"
                 >
                   Home
@@ -126,9 +122,7 @@ const Navbar = () => {
         
               <Link href="/contact">
                 <a
-                  className={`nav-link text-sm block ${
-                    router.pathname == "/contact" ? "active" : ""
-                  }`}
+                  className={`nav-link text-sm block ${routeIndicator("/contact")}`}
                 >
                   Contact
                 </a>
