@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div
     className='bg-black_1 px-[2.54rem] md:px-[6.25rem] pt-[2.5rem] md:pt-[5.4rem] pb-[1.3rem] md:pb-[2.375rem]'>
-    <div className="border-b border-solid	border-footer_border_color pb-[1.58rem] md:pb-[3.275]">
+    <div className="border-b border-solid	border-grey_2 pb-[1.58rem] md:pb-[3.275]">
  
  <div className='flex flex-col lg:flex-row gap-[1.85rem]'>
       <div className=" basis-1/2 flex flex-col gap-[1rem] md:gap-[0.875rem]">
