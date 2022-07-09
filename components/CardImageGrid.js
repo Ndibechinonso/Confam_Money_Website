@@ -1,12 +1,37 @@
-import PageIntro from "./PageIntro"
-import Image from "next/dist/client/image"
-const cardImageGrid = ({gridContainer, image, header, text, imgageClass, titleClass, descriptionClass, containerClass, listedIntro, children }) =>{
-    return(
-        <div className={gridContainer}>
-<Image src={image} width={530} height={309} className={imgageClass}/>
-<PageIntro title={header} description={text} containerClass={containerClass} titleClass={titleClass} descriptionClass={descriptionClass} listedIntro={listedIntro} children={children}/>
-        </div>
-    )
-}
+import PageIntro from "./PageIntro";
+import Image from "next/dist/client/image";
 
-export default cardImageGrid
+const CardImageGrid = ({
+  gridContainer,
+  image,
+  header,
+  text,
+  imageClass,
+  titleClass,
+  descriptionClass,
+  containerClass,
+  listedIntro,
+  children,
+  isNumberedImages,
+  imageSrc,
+}) => {
+  return (
+    <div className={gridContainer}>
+        <div className={imageClass}>
+      <Image src={image} width={530} height={309}  /> </div>
+      <PageIntro
+        title={header}
+        description={text}
+        containerClass={containerClass}
+        titleClass={titleClass}
+        descriptionClass={descriptionClass}
+        listedIntro={listedIntro}
+        children={children}
+        isNumberedImages={isNumberedImages}
+        imgSrc={imageSrc}
+      />
+    </div>
+  );
+};
+
+export default CardImageGrid;
