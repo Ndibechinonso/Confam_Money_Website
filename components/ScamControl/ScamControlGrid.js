@@ -14,8 +14,8 @@ const ScamControlGrid = () => {
         image="/images/scam_1.png"
         header="Overview of Escrow scam"
         text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu"
-        containerClass="order-first"
-        imgageClass="order-2"
+        containerClass=""
+        imageClass="order-2"
         titleClass={titleClass}
         descriptionClass={descriptionClass}
      />
@@ -25,7 +25,7 @@ const ScamControlGrid = () => {
         image="/images/scam_2.png"
         header="Red Flags of possible payment Scam"
         containerClass=""
-        imgageClass="order-first"
+        imageClass="order-first"
         titleClass={titleClass}
         listedIntro
         children
@@ -46,7 +46,7 @@ const ScamControlGrid = () => {
         header="Avoiding escrow scams"
         text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,"
         containerClass="order-first"
-        imgageClass="order-2"
+        imageClass="order-2"
         titleClass={titleClass}
         descriptionClass={descriptionClass}
      />
@@ -57,7 +57,7 @@ const ScamControlGrid = () => {
         image="/images/scam_2.png"
         header="Questionable payment approachs"
         containerClass=""
-        imgageClass="order-first"
+        imageClass="order-first"
         titleClass={titleClass}
         listedIntro
         children

@@ -1,5 +1,5 @@
 import PageIntro from "../components/PageIntro"
-import ScamControlGrid from "../components/ScamControl/SccamControlGrid"
+import ScamControlGrid from "../components/ScamControl/ScamControlGrid"
 import Link from 'next/link'
 
 const ScamControl = () => {
