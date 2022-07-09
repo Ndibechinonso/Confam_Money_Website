@@ -66,8 +66,8 @@ const Footer = () => {
             Product
             </h5>
             <Link href="/"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3"> Escrow Services</a></Link>
-           <Link href="/"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">Pricing</a></Link>
-           <Link href="/"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">Scam Control</a></Link>
+           <Link href="/pricing"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">Pricing</a></Link>
+           <Link href="/scam_control"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">Scam Control</a></Link>
           </div>
         </div>
 

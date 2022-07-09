@@ -14,5 +14,7 @@ export const teamArray = [{image: "/images/team_1.png", name: "John Doe", positi
 
 export const buyerPricingCardArray = ["VAT charges included", "Escrow transaction fee", "Dispute resolution fee"]
 
-
 export const sellerPricingCardArray = ["Insurance fee", "Transaction charges", "Dispute resolution fee"]
+
+
+

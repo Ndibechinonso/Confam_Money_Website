@@ -31,7 +31,8 @@ module.exports = {
       "grey_4": "#BDBDBD",
       "grey_6": "#F8F8F8",
       "gray_9": "#18191F",
-      "footer_bg": "#0E0A1E"
+      "footer_bg": "#0E0A1E",
+      "scam_contact": "#4737FF"
     },
     backgroundImage: {
       "hero_img": "url('/images/hero_bg.svg')",
