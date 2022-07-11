@@ -94,3 +94,8 @@ export const escrowCardArray = [
     text: "We verify all Confam Money users through mobile numbers, BVN, government issued IDs. So be rest assured that you are dealing with real people.",
   },
 ];
+
+export const contactCardArray = [{cardImg: "/images/contact_1.png", header: "Hotline", text:"For enquiry, partnership & sponsorship, We’ll be glad to work with you.", footerContent: "+2348585655558 015154545"},
+{cardImg: "/images/contact_2.png", header: "Email us", text:"For enquiry, partnership & sponsorship, We’ll be glad to work with you.", footerContent: "Our-info-email@info.com"},
+{cardImg: "/images/contact_3.png", header: "Office Address", text:"Give us a stop by our doorstep anytime, We’ll be glad to receive  you.", footerContent: "No 43, kolade marcus street Ajah, Lagos, Nigeria"}
+]

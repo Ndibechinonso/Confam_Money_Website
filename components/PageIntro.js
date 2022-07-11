@@ -39,7 +39,7 @@ const PageIntro = ({
         <p
           className={`${
             pageTitle
-              ? "text-grey_2 font-medium text-center text-[1rem] text-[2rem]  max-w-[400px] md:max-w-[828px]"
+              ? "text-grey_2 font-medium text-center text-[1rem] md:text-[2rem] max-w-[400px] md:max-w-[828px]"
               : descriptionClass
           } `}
         >
