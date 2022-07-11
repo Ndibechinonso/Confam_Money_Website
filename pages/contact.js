@@ -10,7 +10,6 @@ const Contact = () => {
         title="Contact us"
         description="Let us help you solve your nagging isssues"
       />
-
       <div className="grid grid-cols-1 md:grid-cols-3 mt-[4rem] md:mt-[7.438rem] gap-y-[4rem]">
         {contactCardArray.map((card, index) => {
           return (
