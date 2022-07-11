@@ -3,7 +3,7 @@ import { comfamGridArray } from "../../data";
 
 const ConfamGrid = () => {
   const gridContainer =
-    "flex flex-col md:flex-row items-center justify-between gap-y-[1.5rem]";
+    "flex flex-col md:flex-row items-center justify-between gap-[1.5rem]";
   const titleClass =
     "font-semibold text-grey_1 text-[1.125rem] md:text-[2.5rem] mb-[0.875rem] md:mb-[1rem]";
   const descriptionClass =
@@ -16,7 +16,7 @@ const ConfamGrid = () => {
           <CardImageGrid
             key={index}
             gridContainer={gridContainer}
-            containerClass={card.containerClass}
+            containerClass={`${card.containerClass} max-w-[300px] md:max-w-[500px]` }
             image={card.img}
             header={card.title}
             text={card.text}

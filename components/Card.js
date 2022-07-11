@@ -31,7 +31,7 @@ const Card = ({
               width={120}
               height={40}
             />{" "}
-          </div>{" "}
+          </div>
         </>
       ) : null}
 

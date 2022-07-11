@@ -67,7 +67,6 @@ const Navbar = () => {
           <div className="justify-content-end hidden lg:block">
           <a href='' target="_blank" rel="noreferrer" className={`cursor-pointer text-primary_2 font-medium text-[1.25rem] mr-[1.125rem] md:mr-[1.78rem]`} >Sign In</a>
             <a href='' target="_blank" rel="noreferrer" className={`bg-btn_bg cursor-pointer text-white font-medium text-[1.25rem] py-[10px] px-[30px] rounded-lg`} >Get Started</a>
-            {/* <Button text="Shop" className={styles.shop_btn} color="white" />{" "} */}
           </div>
 
           <div className="-mr-2 flex lg:hidden items-center">
