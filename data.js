@@ -14,3 +14,26 @@ export const teamArray = [{image: "/images/team_1.png", name: "John Doe", positi
 {image: "/images/team_6.png", name: "John Doe", position: "position"},
 {image: "/images/team_7.png", name: "John Doe", position: "position"},
 {image: "/images/team_8.png", name: "John Doe", position: "position"}]
+
+export const homeWhyUs = [
+    {
+        image:"/images/home_why_shield.svg",
+        title:"Safe and Secure",
+        body:"Protected and safe way to buy products or services."
+    },
+    {
+        image:"/images/home_why_mobile.svg",
+        title:"Mobile App",
+        body:"Once we are happy with the online platform, we will create an APP for you to use."
+    },
+    {
+        image:"/images/home_why_code.svg",
+        title:"Continue to Develop",
+        body:"We at Confam Money, are looking to continue to develop new platforms and increase the technologybehind each platform."
+    },
+    {
+        image:"/images/home_why_protect.svg",
+        title:"Protected By Us",
+        body:"We will make sure that both parties have protection when doing a transaction through us."
+    },
+]

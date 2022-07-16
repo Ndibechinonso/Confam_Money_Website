@@ -1,4 +1,57 @@
-.hero{
+@keyframes animatebackground {
+  0% {
+    background: url(../public/images/hero_circle1.svg) left no-repeat,
+      url(../public/images/hero_circle2.svg) center no-repeat,
+      url(../public/images/hero_circle3.svg) right no-repeat,
+      url(../public/images/LeftBand.svg) no-repeat 0 84%,
+      url(../public/images/RightBand.svg) no-repeat 100% 63%;
+  }
+  25% {
+    background: url(../public/images/hero_circle1.svg) center no-repeat,
+      url(../public/images/hero_circle2.svg) right no-repeat,
+      url(../public/images/hero_circle3.svg) left no-repeat,
+      url(../public/images/LeftBand.svg) no-repeat 0 84%,
+      url(../public/images/RightBand.svg) no-repeat 100% 63%;
+  }
+  50% {
+    background: url(../public/images/hero_circle1.svg) right no-repeat,
+      url(../public/images/hero_circle2.svg) left no-repeat,
+      url(../public/images/hero_circle3.svg) center no-repeat,
+      url(../public/images/LeftBand.svg) no-repeat 0 84%,
+      url(../public/images/RightBand.svg) no-repeat 100% 63%;
+  }
+  75% {
+    background: url(../public/images/hero_circle1.svg) right no-repeat,
+      url(../public/images/hero_circle2.svg) center no-repeat,
+      url(../public/images/hero_circle3.svg) left no-repeat,
+      url(../public/images/LeftBand.svg) no-repeat 0 84%,
+      url(../public/images/RightBand.svg) no-repeat 100% 63%;
+  }
+  100% {
+    background: url(../public/images/hero_circle1.svg) left no-repeat,
+      url(../public/images/hero_circle2.svg) center no-repeat,
+      url(../public/images/hero_circle3.svg) right no-repeat,
+      url(../public/images/LeftBand.svg) no-repeat 0 84%,
+      url(../public/images/RightBand.svg) no-repeat 100% 63%;
+  }
+}
+
+.hero {
   backdrop-filter: blur(100px);
 
+  background: url(../public/images/hero_circle1.svg) left no-repeat,
+    url(../public/images/hero_circle2.svg) center no-repeat,
+    url(../public/images/hero_circle3.svg) right no-repeat,
+    url(../public/images/LeftBand.svg) no-repeat 0 84%,
+    url(../public/images/RightBand.svg) no-repeat 100% 63%;
+  clip-path: polygon(0 0, 100% 0%, 100% 60%, 0 86%);
 }
+
+.heroanimation {
+  animation-name: animatebackground;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Button from "./Button";
-import styles from "../styles/Home.module.scss";
+// import styles from "../styles/Home.module.css";
 import { Transition } from "@headlessui/react";
 
 
@@ -11,8 +11,25 @@ const Navbar = () => {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
 
+  const [changeNavbar, setChangeNavbar] = useState(false)
+  const changeBackground = () => {
+    if (window.scrollY >= 82) {
+      setChangeNavbar(true)
+    } else {
+      setChangeNavbar(false)
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeBackground)
+    return () => { 
+      window.removeEventListener("scroll", changeBackground)
+     }
+  },[])
+
+
   return (
-    <nav className="navbar sticky top-0 bg-nav_bg py-5 md:py-4 px-5 xl:px-[100px] z-10">
+    <nav className={`navbar ${changeNavbar ? "bg-nav_bg": "bg-navtop_bg"} fixed top-0 left-0 right-0  py-5 md:py-4 px-5 xl:px-[100px] z-10`}>
       <div className="flex min-w-full flex-row items-center justify-between">
         <div className="flex min-w-full items-center justify-between">
           <div className="flex-shrink-0">
