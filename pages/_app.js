@@ -7,7 +7,7 @@ import AppStoreSection from '../components/AppStoreSection'
 function MyApp({ Component, pageProps }) {
   return (
   <div className='max-w-[1440px] m-auto'>
-    {/* <Navbar /> */}
+    <Navbar />
   <Component {...pageProps} />
   <AppStoreSection />
   <Footer />

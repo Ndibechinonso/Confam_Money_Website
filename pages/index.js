@@ -2,6 +2,8 @@ import Head from "next/head";
 import HeroSection from "../components/Homepage/HeroSection";
 import CoreSection from "../components/Homepage/CoreSection";
 import WhyUsSection from "../components/Homepage/WhyUsSection";
+import HowItworksSection from "../components/Homepage/HowItworksSection";
+import TestimonySection from "../components/Homepage/HomeTestimony";
 
 const Home = () => {
   return (
@@ -12,9 +14,11 @@ const Home = () => {
       </Head>
 
       <main className="w-full">
-        {/* <HeroSection /> */}
+        <HeroSection />
         <CoreSection />
         <WhyUsSection />
+        <HowItworksSection />
+        <TestimonySection />
       </main>
     </div>
   );
