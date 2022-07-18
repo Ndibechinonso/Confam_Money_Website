@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div
     className='bg-black_1 px-[2.54rem] md:px-[6.25rem] pt-[2.5rem] md:pt-[5.4rem] pb-[1.3rem] md:pb-[2.375rem]'>
-    <div className="border-b border-solid	border-footer_border_color pb-[1.58rem] md:pb-[3.275]">
+    <div className="border-b border-solid	border-grey_2 pb-[1.58rem] md:pb-[3.275]">
  
  <div className='flex flex-col lg:flex-row gap-[1.85rem]'>
       <div className=" basis-1/2 flex flex-col gap-[1rem] md:gap-[0.875rem]">
@@ -65,9 +65,9 @@ const Footer = () => {
             <h5 className="text-left font-medium text-[1.125rem] md:text-[1.5rem] text-grey_4">
             Product
             </h5>
-            <Link href="/"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3"> Escrow Services</a></Link>
-           <Link href="/"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">Pricing</a></Link>
-           <Link href="/"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">Scam Control</a></Link>
+            <Link href="/escrow_service"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3"> Escrow Services</a></Link>
+           <Link href="/pricing"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">Pricing</a></Link>
+           <Link href="/scam_control"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">Scam Control</a></Link>
           </div>
         </div>
 
@@ -78,7 +78,7 @@ const Footer = () => {
             <h5 className="text-left font-medium text-[1.125rem] md:text-[1.5rem] text-grey_4 ">
             Company
             </h5>
-            <Link href="/"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">About Us</a></Link>
+            <Link href="/about_us"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">About Us</a></Link>
            <Link href="/"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">Privacy Policy</a></Link>
            <Link href="/"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">Terms of Use</a></Link>
           </div>
@@ -92,8 +92,8 @@ const Footer = () => {
             Resources
             </h5>
             <Link href="/"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">FAQ</a></Link>
-           <Link href="/"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">Contact Us</a></Link>
-           <Link href="/"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">How It Works</a></Link>
+           <Link href="/contact"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">Contact Us</a></Link>
+           <Link href="/how_comfam_money_works"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">How It Works</a></Link>
           </div>
         </div>
         </div>

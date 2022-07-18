@@ -22,8 +22,49 @@ body {
   margin: 0;
 }
 
+.active{
+  color: #044DA1 !important;
+}
 @media only screen and (max-width: 1026px) {
   .app_store_content{
     margin: auto !important;
   }
+}
+
+ul {
+	font-size: 13px;
+	// line-height: 1.5em;
+	// margin: 5px 0 15px;
+	// padding: 0;
+	li {
+		list-style: none;
+		position: relative;
+		padding: 0 0 0 30px;
+	}
+  .red_flags{
+    padding: 0 0 0 30px;
+  }
+}
+
+ul.round {
+	li {
+		&::before {
+			content: "";
+			position: absolute;
+			left: 10px;
+			top: 12px;
+			width: 5px;
+			height: 5px;
+			background-color: #000000;
+			border-radius: 50%;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+		}
+	}
+  .red_flags {
+		&::before {
+			left: 18px;
+	
+		}
+	}
 }
