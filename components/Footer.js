@@ -91,7 +91,7 @@ const Footer = () => {
             <h5 className="text-left font-medium text-[1.125rem] md:text-[1.5rem] text-grey_4 ">
             Resources
             </h5>
-            <Link href="/"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">FAQ</a></Link>
+            <Link href="/faq"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">FAQ</a></Link>
            <Link href="/contact"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">Contact Us</a></Link>
            <Link href="/how_comfam_money_works"><a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">How It Works</a></Link>
           </div>

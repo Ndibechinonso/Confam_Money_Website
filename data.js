@@ -273,3 +273,46 @@ export const contactCardArray = [
     footerContent: "No 43, kolade marcus street Ajah, Lagos, Nigeria",
   },
 ];
+export const faqData = {
+  title: "Frequently Asked Questions",
+  subtitle: "Below are questions we’ve been asked the most about Confam Money",
+  questions: [
+    {
+      question: "What is CONFAM MONEY?",
+      answer:
+        "CONFAM MONEY is an escrow service platform that effectively bridges the gap between two parties with an interest to engage in transactions within the lines of purchase and sales of goods/services in Nigeria. This platform conducts a thorough and concise validation process for each user providing a secure platform with end-to-end encryption, verification and authentication.",
+    },
+    {
+      question: "How does CONFAM MONEY work?",
+      answer:
+        "CONFAM MONEY is an intermediary, third-party platform that manages and ensures seamless purchase and sales transactions between users. Each party, buyer and seller, creates a valid account on the CONFAM MONEY platform and fulfills all mandatory, contractual agreements; Buyer and seller agree to terms, the buyer will proceed to deposit the funds required for the payment and purchase of the goods or services, the seller delivers goods in good condition then all funds in our possession are transferred from one party to another after CONFAM MONEY makes all necessary verifications. This ensures that platform’s transactions are strict and transparent with a well-structured security system.",
+    },
+    {
+      question:
+        "How do I get a refund on CONFAM MONEY if I’m not satisfied with the goods delivered?",
+      answer:
+        "The CONFAM MONEY app has a feature where users can confirm and accept delivery of the goods. After accepting delivery, you can go ahead and raise a dispute stating your reason for a refund. Your dispute will be approved, reviewed, verified and a refund would be made between 3-5 working days. The seller would be notified of your dispute and prompted to retrieve the goods delivered.",
+    },
+    {
+      question: "How do I know if the seller is legit?",
+      answer:
+        "CONFAM MONEY performs KYCs on all users before they are granted access to the app and its features. The information provided by users are vetted pre and post transaction to ensure legitimacy of buyers, sellers, goods and services.",
+    },
+    {
+      question: "Can I make a cash or card payment on CONFAM MONEY?",
+      answer:
+        "CONFAM MONEY allows you to fund your CONFAM WALLET, using USSD, bank credit or the card payment method. ",
+    },
+    {
+      question: "How Does CONFAM MONEY confirm a user’s identity",
+      answer:
+        "CONFAM MONEY carries out a detailed customer analysis and background check to corroborate every personal information provided by each user on the app. This is done to sieve out and spot fraudulent tendencies from faux accounts. To carry out any purchase or sales transaction, users would be mandated to fill out personal details that makes the verification process smooth, quick and authentic.",
+    },
+    {
+      question:
+        "Can users who reside in different parts of the country still engage in seamless transactions on CONFAM MONEY?",
+      answer:
+        "Yes, users in different parts of the country can carry out transactions on the CONFAM MONEY platform. This ensures that funds deposited for payment for goods are secured. The platform also has the Goods-on-Transit-Insurance option where users can opt for insurance of their goods transported from one state to another till it gets to the buyer’s destination. The insurance ensures that a percentage of the cost for the goods is paid to the buyer if the goods are delivered in poor condition.",
+    },
+  ],
+};
