@@ -4,7 +4,7 @@ function Accordion({ question, answer }) {
   const [state, setState] = useState(false);
   const id = useId();
   return (
-    <div
+    <section
       className={`border-b border-grey_5 border-solid sm:pt-2.5 ${
         state ? "pb-2" : ""
       }`}
@@ -23,11 +23,11 @@ function Accordion({ question, answer }) {
         ></span>
       </button>
       {state && (
-        <div className="pb-2" aria-hidden={!state.toString()}>
+        <section className="pb-2" aria-hidden={!state.toString()}>
           <p>{answer}</p>
-        </div>
+        </section>
       )}
-    </div>
+    </section>
   );
 }
 

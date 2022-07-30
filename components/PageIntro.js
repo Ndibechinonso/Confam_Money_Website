@@ -13,7 +13,7 @@ const PageIntro = ({
   imgSrc,
 }) => {
   return (
-    <div
+    <section
       className={`${
         pageTitle
           ? "flex flex-col gap-[1rem] md:gap-[1.5rem] items-center"
@@ -21,10 +21,10 @@ const PageIntro = ({
       }`}
     >
       {isNumberedImages && (
-        <div className="mb-[1rem] md:mb-[1.5rem]">
+        <section className="mb-[1rem] md:mb-[1.5rem]">
           {" "}
           <Image src={imgSrc} width={50} height={50} />{" "}
-        </div>
+        </section>
       )}
       <h2
         className={`${
@@ -47,7 +47,7 @@ const PageIntro = ({
         </p>
       )}
       {listedIntro && children}
-    </div>
+    </section>
   );
 };
 

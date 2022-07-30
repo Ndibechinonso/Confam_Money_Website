@@ -6,6 +6,33 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        changebg: {
+          "0%": {
+            background:
+              "url(/images/hero_circle11.svg) left no-repeat,url(/images/hero_circle21.svg) center no-repeat,url(/images/hero_circle31.svg) right no-repeat",
+          },
+          "25%": {
+            background:
+              "url(/images/hero_circle11.svg) center no-repeat, url(/images/hero_circle21.svg) right no-repeat, url(/images/hero_circle31.svg) left no-repeat",
+          },
+          "50%": {
+            background:
+              "url(/images/hero_circle11.svg) right no-repeat, url(/images/hero_circle21.svg) left no-repeat, url(/images/hero_circle31.svg) center no-repeat",
+          },
+          "75%": {
+            background:
+              "url(/images/hero_circle11.svg) right no-repeat, url(/images/hero_circle21.svg) center no-repeat, url(/images/hero_circle31.svg) left no-repeat",
+          },
+          "100%": {
+            background:
+              "url(/images/hero_circle11.svg) left no-repeat, url(/images/hero_circle21.svg) center no-repeat, url(/images/hero_circle31.svg) right no-repeat",
+          },
+        },
+      },
+      animation: {
+        "bg-animate": "changebg 5s ease infinite",
+      },
       borderRadius: {
         ["2_5"]: "0.625rem",
         circle: "50%",
@@ -18,6 +45,10 @@ module.exports = {
       },
       backgroundImage: {
         homesection: "url('/images/edgebg.svg'),url('/images/edgebg.svg')",
+        homeheroedge:
+          "url('/images/hero_leftband.svg'),url('/images/hero_rightband.svg')",
+        homeheroedgemobile:
+          "url('/images/heromb_leftband.svg'),url('/images/heromb_rightband.svg')",
         homeimgedge: "url('/images/imageedge.svg')",
         homeimgedgedsk: "url('/images/imageedgedesk.svg')",
         accordionimg: "url('/images/arrowdown.svg')",
@@ -27,9 +58,12 @@ module.exports = {
         howitworksmd: "-16% -6%, 116% 106%;",
         howitworkslg: "-14% -7%, 118% 106%",
         howitworksxl: "-7% -7%, 106% 106%",
+        homeheromb: "0% 85%, 150% 55%",
+        homeherolg: "-30% 95%, 150% 55%",
         homeimgedgesm: "150% 58%",
         homeimgedgemd: "100% -5%",
         homeimgedgexl: "100% 0%",
+        unset: "unset",
       },
     },
 
@@ -44,6 +78,8 @@ module.exports = {
       xl: "6px 5px 17px rgba(156, 149, 149, 0.06)",
       "2xl": "0px 8px 25px rgba(130, 130, 130, 0.15)",
       "3xl": "6px 5px 22px rgba(0, 0, 0, 0.1)",
+      hero_mobile: "10px 15px 30px 0px #29292A80",
+      hamburger: "0px 1px 20px 0px #0000000F",
 
 
     },
@@ -72,6 +108,7 @@ module.exports = {
       footer_border_color: "#4F4F4F",
       home_sec: "#F0F5FB",
       scam_contact: "#4737FF",
+      light_d1: "#EEEEEF",
     },
   },
   plugins: [],
