@@ -8,9 +8,9 @@ function SectionTitle({ title, subtitle, headerClassName }) {
       <h4 className="font-semibold text-black_2 text-[18px] leading-6 md:text-[40px] md:leading-[48px]">
         {title}
       </h4>
-      <p className="font-normal text-black_2 text-[14px] leading-4 md:text-[20px] md:leading-[30px] ">
+      <div className="font-normal text-black_2 text-[14px] leading-4 md:text-[20px] md:leading-[30px] ">
         {subtitle}
-      </p>
+      </div>
     </header>
   );
 }

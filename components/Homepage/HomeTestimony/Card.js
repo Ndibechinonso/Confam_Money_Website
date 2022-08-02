@@ -16,12 +16,14 @@ function TestimonyCard({ title, mention, imgSrc, body }) {
           <h5 className="text-black_2 font-bold text-[13px] leading-[19px] ">
             {title}
           </h5>
-          <p className="text-grey_4 font-normal text-[0.625rem] leading-[15px]">
+          <div className="text-grey_4 font-normal text-[0.625rem] leading-[15px]">
             {mention}
-          </p>
+          </div>
         </div>
       </div>
-      <p className="text-grey_2 font-normal text-[12px] leading-[15px]">{body}</p>
+      <div className="text-grey_2 font-normal text-[12px] leading-[15px]">
+        {body}
+      </div>
     </div>
   );
 }

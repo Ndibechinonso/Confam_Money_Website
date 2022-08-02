@@ -10,9 +10,9 @@ function WhyCard({ imgsrc, title, body }) {
       <h6 className="font-semibold text-black_2 text-[14px] leading-4 lg:text-[24px] lg:leading-[30px]">
         {title}
       </h6>
-      <p className="font-light text-grey_2 text-[13px] leading-4 lg:text-xl lg:leading-[30px]">
+      <div className="font-light text-grey_2 text-[13px] leading-4 lg:text-xl lg:leading-[30px]">
         {body}
-      </p>
+      </div>
     </div>
   );
 }

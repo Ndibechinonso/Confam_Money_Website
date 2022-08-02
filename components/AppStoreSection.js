@@ -9,21 +9,23 @@ const AppStoreSection = () => {
           <h2 className="text-gray_9 font-semibold text-[1.125rem] lg:text-[3.5rem] max-w-[200px] lg:max-w-[560px] leading-[22px] lg:leading-[67px] mb-[0.5rem] lg:mb-[0.75rem]">
             Manage your projects from your mobile
           </h2>
-          <p className="text-gray_9 text-[0.875rem] md:text-[1.25rem] w-[297.79px] sm:w-[470px] md:max-w-[560px]">
+          <div className="text-gray_9 text-[0.875rem] md:text-[1.25rem] w-[297.79px] sm:w-[470px] md:max-w-[560px]">
             Download Confam Money App today to transact safely with our
             peer-to-peer escrow-service payment platform. Stay on track and
             experience true business security!
-          </p>
+          </div>
         </div>
         <div className="flex lg:hidden flex-row gap-[0.784rem] justify-center mb-[0.753rem] h-[278px]">
-
-<div className='self-start'>
-        <Image src="/images/android_mob.png" height={178.72} width={89.36}  />
-        </div>
-        <div className='self-end'>
-
-        <Image src="/images/iphone_mob.png" height={178.72} width={89.36}  />
-        </div>
+          <div className="self-start">
+            <Image
+              src="/images/android_mob.png"
+              height={178.72}
+              width={89.36}
+            />
+          </div>
+          <div className="self-end">
+            <Image src="/images/iphone_mob.png" height={178.72} width={89.36} />
+          </div>
         </div>
         <div className="flex flex-col items-center lg:items-start gap-[0.875rem] md:gap-[0.5rem]">
           <h5 className="text-gray_9 font-medium text-[1rem] md:text-[1.25rem]">
@@ -41,14 +43,21 @@ const AppStoreSection = () => {
           </div>
         </div>
       </div>
-      <div className="hidden lg:flex flex-row relative">
-      {/* <div className="absolute right-[50%] md:right-[360.55px] top-[-2px] min-w-[232px] min-h-[464]"> */}
-
-        <Image src="/images/android.png" height={464} width={232} className="absolute right-[50%] md:right-[360.55px] top-[-2px]" />
-      {/* </div> */}
-      {/* <div className="absolute right-[30%] md:right-[96px] bottom-[-10px] min-w-[232px] min-h-[464]"> */}
-        <Image src="/images/iphone.png" height={464} width={232} className="absolute right-[30%] md:right-[96px] bottom-[-10px]" />
-      {/* </div> */}
+      <div className="hidden lg:flex flex-row gap-x-8 relative">
+        <div className="relative w-40 h-80 xl:w-[232px] xl:h-[464px] self-start">
+          <Image
+            src="/images/android1.png"
+            className="absolute inset-0 object-contain object-top"
+            layout="fill"
+          />
+        </div>
+        <div className="relative w-40 h-80 xl:w-[232px] xl:h-[464px] self-end">
+          <Image
+            src="/images/iphone1.png"
+            className="absolute inset-0 object-contain object-bottom"
+            layout="fill"
+          />
+        </div>
       </div>
     </div>
   );

@@ -45,6 +45,7 @@ module.exports = {
       },
       backgroundImage: {
         homesection: "url('/images/edgebg.svg'),url('/images/edgebg.svg')",
+        homesection_desk: "url('/images/edgebgdsk.svg'),url('/images/edgebgdsk.svg')",
         homeheroedge:
           "url('/images/hero_leftband.svg'),url('/images/hero_rightband.svg')",
         homeheroedgemobile:
@@ -57,7 +58,7 @@ module.exports = {
         howitworkssm: "-40% -7%, 146% 106%",
         howitworksmd: "-16% -6%, 116% 106%;",
         howitworkslg: "-14% -7%, 118% 106%",
-        howitworksxl: "-7% -7%, 106% 106%",
+        howitworksxl: "-15% -50%, 115% 150%",
         homeheromb: "0% 85%, 150% 55%",
         homeherolg: "-30% 95%, 150% 55%",
         homeimgedgesm: "150% 58%",
@@ -78,6 +79,9 @@ module.exports = {
         "3xl": "6px 5px 22px rgba(0, 0, 0, 0.1)",
         hero_mobile: "10px 15px 30px 0px #29292A80",
         hamburger: "0px 1px 20px 0px #0000000F",
+        header: "0px 0.6525956988334656px 15.662297248840332px -0.6525956988334656px #0000001A",
+
+
       },
     },
 

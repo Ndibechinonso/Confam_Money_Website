@@ -37,13 +37,13 @@ const Navbar = () => {
     { name: "Pricing", routepath: "/pricing" },
     { name: "About Us", routepath: "/about_us" },
   ];
+  // bg-gradient-to-t from-[rgba(255,255,255,0.4)] to-[rgba(255,255,255,0.1)]
 
   return (
-    // <nav className={`navbar ${changeNavbar ? "bg-nav_bg": "bg-navtop_bg"} fixed top-0 left-0 right-0  py-5 md:py-4 px-5 xl:px-[100px] z-10`}>
     <nav
       className={`${
-        changeNavbar ? "bg-nav_bg" : "bg-navtop_bg"
-      } fixed top-0 left-0 right-0  py-5 md:py-4 px-5 xl:px-[100px] z-10`}
+        changeNavbar ? "bg-nav_bg shadow-header" : ""
+      } fixed top-0 left-0 right-0  py-5 md:py-4 px-5 xl:px-[100px] z-10 `}
     >
       <div className="flex min-w-full flex-row items-center justify-between">
         <div className="flex min-w-full items-center justify-between">

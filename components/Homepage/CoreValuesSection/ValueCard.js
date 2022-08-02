@@ -8,9 +8,9 @@ function ValueCard({ img, title, sub }) {
         <Image src={img} layout="fill" className="absolute inset-0" />
       </div>
       <h6 className=" text-base font-medium mt-2 mb-1 text-black_2">{title}</h6>
-      <p className="text-[14px] leading-[17px] text-footer_border_color ">
+      <div className="text-[14px] leading-[17px] text-footer_border_color ">
         {sub}
-      </p>
+      </div>
     </div>
   );
 }

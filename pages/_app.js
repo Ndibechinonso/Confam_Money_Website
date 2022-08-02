@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
       <div
         className={`${
           router.pathname !== "/"
-            ? "bg-body_bg pt-[6.375rem] md:pt-[4.688rem]"
+            ? "bg-body_bg md:pt-[8rem] pt-[4.75rem]"
             : ""
         }`}
       >
