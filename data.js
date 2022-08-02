@@ -55,7 +55,7 @@ export const homeWhyUs = [
   {
     image: "/images/home_why_shield.svg",
     title: "Safe and Secure",
-    body: "Protected and safe way to buy products or services.",
+    body: "Protected and safe way to buy products or services, by providing protection for both buyers and sellers.",
   },
   {
     image: "/images/home_why_mobile.svg",
@@ -65,7 +65,7 @@ export const homeWhyUs = [
   {
     image: "/images/home_why_code.svg",
     title: "Continue to Develop",
-    body: "We at Confam Money, are looking to continue to develop new platforms and increase the technologybehind each platform.",
+    body: "Continue to develop new platforms and increase the technology behind each platform.",
   },
   {
     image: "/images/home_why_protect.svg",
@@ -73,6 +73,43 @@ export const homeWhyUs = [
     body: "We will make sure that both parties have protection when doing a transaction through us.",
   },
 ];
+
+export const homeCoreValues = {
+  title:"Our Core Values",
+  subtitle:"Our values as an esteemed third-party service provider, align to ensure customers and users have a unique experience, We remain committed to creating ease, bridging the gaps between the sellers, buyers, goods, and services.",
+  cards:[
+    {
+      img:"/images/core_opacity.svg",
+      title:"Transparency",
+      sub:"We provide transactions void of ambiguity in all forms."
+    },
+    {
+      img:"/images/core_solutions.svg",
+      title:"Integrity",
+      sub:"We stand true to the truth."
+    },
+    {
+      img:"/images/core_timer.svg",
+      title:"Promptness",
+      sub:"We are just a click away from meeting and exceeding all service delivery expectations."
+    },
+    {
+      img:"/images/core_briefcase.svg",
+      title:"Professionalism",
+      sub:"We operate a high level of skill set and competence in all transactions."
+    },
+    {
+      img:"/images/core_network.svg",
+      title:"Dependability",
+      sub:"We run a system with strong measures of availability and timeliness."
+    },
+    {
+      img:"/images/core_speedometer.svg",
+      title:"Efficiency",
+      sub:"We create a solid merge between expectation and delivery at all times without fail."
+    },
+  ]
+}
 
 export const homeHowWorks = {
   title: "How It Works",

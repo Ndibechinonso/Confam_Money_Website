@@ -65,24 +65,22 @@ module.exports = {
         homeimgedgexl: "100% 0%",
         unset: "unset",
       },
+      boxShadow: {
+        home_core_card: "0px 2px 10px 0px rgba(0, 0, 0, 0.05)",
+        home_why_card: " 0px 3px 7px 0px rgba(130, 130, 130, 0.1)",
+        home_why_img: " 0px 4px 30px 0px rgba(0, 0, 0, 0.25)",
+        home_how: " 0px 3px 7px 0px rgba(52, 52, 52, 0.1)",
+        home_what: " 0px 2px 20px 1px rgba(0, 0, 102, 0.1)",
+        home_testimony:
+          " 0px 1.2817314863204956px 12.817315101623535px 0.6408657431602478px #0000661A",
+        xl: "6px 5px 17px rgba(156, 149, 149, 0.06)",
+        "2xl": "0px 8px 25px rgba(130, 130, 130, 0.15)",
+        "3xl": "6px 5px 22px rgba(0, 0, 0, 0.1)",
+        hero_mobile: "10px 15px 30px 0px #29292A80",
+        hamburger: "0px 1px 20px 0px #0000000F",
+      },
     },
 
-    boxShadow: {
-      home_core_card: "0px 2px 10px 0px rgba(0, 0, 0, 0.05)",
-      home_why_card: " 0px 3px 7px 0px rgba(130, 130, 130, 0.1)",
-      home_why_img: " 0px 4px 30px 0px rgba(0, 0, 0, 0.25)",
-      home_how: " 0px 3px 7px 0px rgba(52, 52, 52, 0.1)",
-      home_what: " 0px 2px 20px 1px rgba(0, 0, 102, 0.1)",
-      home_testimony:
-        " 0px 1.2817314863204956px 12.817315101623535px 0.6408657431602478px #0000661A",
-      xl: "6px 5px 17px rgba(156, 149, 149, 0.06)",
-      "2xl": "0px 8px 25px rgba(130, 130, 130, 0.15)",
-      "3xl": "6px 5px 22px rgba(0, 0, 0, 0.1)",
-      hero_mobile: "10px 15px 30px 0px #29292A80",
-      hamburger: "0px 1px 20px 0px #0000000F",
-
-
-    },
     colors: {
       nav_bg: "#F2F7FF",
       body_bg: "#F5F5FF",
@@ -109,6 +107,8 @@ module.exports = {
       home_sec: "#F0F5FB",
       scam_contact: "#4737FF",
       light_d1: "#EEEEEF",
+      light_ruler_1: "rgba(192, 204, 218, 0.1)",
+      light_ruler_2: "rgba(192, 204, 218, 0.6)",
     },
   },
   plugins: [],

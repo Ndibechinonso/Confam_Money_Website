@@ -1,6 +1,6 @@
 import Head from "next/head";
 import HeroSection from "../components/Homepage/HeroSection";
-import CoreSection from "../components/Homepage/CoreSection";
+import CoreValuesSection from "../components/Homepage/CoreValuesSection";
 import WhyUsSection from "../components/Homepage/WhyUsSection";
 import HowItworksSection from "../components/Homepage/HowItworksSection";
 import TestimonySection from "../components/Homepage/HomeTestimony";
@@ -15,7 +15,7 @@ const Home = () => {
 
       <main className="w-full">
         <HeroSection />
-        <CoreSection />
+        <CoreValuesSection />
         <WhyUsSection />
         <HowItworksSection />
         <TestimonySection />
