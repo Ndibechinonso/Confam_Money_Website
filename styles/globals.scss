@@ -98,3 +98,35 @@ ul.round {
 		}
 	}
 }
+
+.testimoney{
+
+}
+
+.center{
+  // background-color: red;
+  padding: 0 100px;
+  // height: 410px;
+
+  .slick-track,
+  .slick-list{
+    height: 100%;
+  }
+
+  .slick-slide{
+    height: 100%;
+    // margin-right: 40px;
+    padding: 20px;
+    display: flex !important;
+    row-gap: 36px;
+    flex-direction: column;
+    & > div {
+      flex: 1;
+       & > div {
+        height: max-content;
+       }
+    }
+
+
+  }
+}
