@@ -107,12 +107,12 @@ const Footer = () => {
                     About Us
                   </a>
                 </Link>
-                <Link href="/">
+                <Link href="/privacy_policy">
                   <a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">
                     Privacy Policy
                   </a>
                 </Link>
-                <Link href="/">
+                <Link href="/terms_and_condition">
                   <a className="text-[0.875rem] md:text-[1.25rem] text-grey_3">
                     Terms of Use
                   </a>
