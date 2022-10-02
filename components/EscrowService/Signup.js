@@ -12,7 +12,7 @@ const Signup = () => {
 
         <div>
           <a
-            href=""
+            href="https://buyer.confammoney.com/signup/buyer"
             target="_blank"
             rel="noreferrer"
             className={`bg-btn_bg cursor-pointer text-white font-medium text-[1.25rem] py-[10px] px-[30px] rounded-lg`}
