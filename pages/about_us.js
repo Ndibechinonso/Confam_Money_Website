@@ -5,7 +5,7 @@ import Mission from "../components/AboutUs/Mission";
 import Team from "../components/AboutUs/Team";
 const AboutUs = () => {
   return (
-    <>
+    <section className="px-[1.125rem] pt-8 md:px-[6.25rem] lg:px-[16.875rem] mb-[4.014rem] md:mb-[13.625rem]">
       <PageIntro
       pageTitle
         title="About Us"
@@ -17,7 +17,7 @@ const AboutUs = () => {
       <Mission />
 {/* <Usp /> */}
 <Team />
-    </>
+    </section>
   );
 };
 

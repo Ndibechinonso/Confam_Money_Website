@@ -14,7 +14,7 @@ function TestimonySection() {
   const initialstate = {
     className: "center",
     autoplay: true,
-    autoplaySpeed: 10000,
+    autoplaySpeed: 3000,
     infinite: true,
     centerPadding: "",
     slidesToShow: 3,
@@ -26,8 +26,6 @@ function TestimonySection() {
   };
   const [settings, setSettings] = useState(initialstate);
   const size = useWindowSize();
-
-  console.log(size.width);
 
   useEffect(() => {
     if (size.width < 640) {
