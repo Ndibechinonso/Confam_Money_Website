@@ -58,7 +58,7 @@ const Navbar = () => {
                   height={50}
                   width={50}
                   alt="nemitt logo"
-                />{" "}
+                />
                 <span className="text-[0.875rem]	md:text-[1.5rem] font-semibold text-primary_1">
                   Confam Money
                 </span>
@@ -85,7 +85,7 @@ const Navbar = () => {
           </div>
           <div className="justify-content-end hidden lg:block">
             <a
-              href=""
+              href="https://buyer.confammoney.com/signin/buyer"
               target="_blank"
               rel="noreferrer"
               className={`cursor-pointer text-primary_2 font-medium text-[1.25rem] mr-[1.125rem] md:mr-[1.78rem]`}
@@ -93,7 +93,7 @@ const Navbar = () => {
               Sign In
             </a>
             <a
-              href=""
+              href="https://buyer.confammoney.com/signup/buyer"
               target="_blank"
               rel="noreferrer"
               className={`bg-btn_bg cursor-pointer text-white font-medium text-[1.25rem] py-[10px] px-[30px] rounded-lg`}
@@ -104,7 +104,7 @@ const Navbar = () => {
 
           <div className="-mr-2 flex lg:hidden   items-center">
             <a
-              href=""
+              href="https://buyer.confammoney.com/signin/buyer"
               target="_blank"
               rel="noreferrer"
               className={`cursor-pointer text-primary_2 font-medium text-[0.875rem] mr-[1.125rem]`}
