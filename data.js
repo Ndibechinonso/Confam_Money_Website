@@ -41,14 +41,14 @@ export const uspArray = [
 ];
 
 export const teamArray = [
-  { image: "/images/team_1.png", name: "John Doe", position: "position" },
-  { image: "/images/team_2.png", name: "John Doe", position: "position" },
-  { image: "/images/team_3.png", name: "John Doe", position: "position" },
-  { image: "/images/team_4.png", name: "John Doe", position: "position" },
-  { image: "/images/team_5.png", name: "John Doe", position: "position" },
-  { image: "/images/team_6.png", name: "John Doe", position: "position" },
-  { image: "/images/team_7.png", name: "John Doe", position: "position" },
-  { image: "/images/team_8.png", name: "John Doe", position: "position" },
+  { image: "/images/team_1.png", name: "Adenike Cecilia Ayoola", position: "Manager" },
+  { image: "/images/team_2.png", name: "Jude Aaron Osasse", position: "Administrator" },
+  { image: "/images/team_3.png", name: " Ikechukwu David Anya", position: "Data Specialist" },
+  { image: "/images/team_4.png", name: "Ikechukwu David Anya", position: "Underwriting Counselor" },
+  { image: "/images/team_5.png", name: "Ekemini Sunday", position: "Accountant" },
+  { image: "/images/team_6.png", name: "Frances Daniels", position: "Designer" },
+  { image: "/images/team_7.png", name: "Justus Obioha", position: "Designer" },
+  { image: "/images/team_8.png", name: "Barakat Omoniyi", position: "Human Resources" },
 ];
 
 export const homeWhyUs = [
