@@ -10,22 +10,12 @@ const Mission = () => {
         <AboutCard
           containerClass="md:self-start bg-white"
           header="Our Vision"
-          text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean 
-commodo ligula eget dolor. Aenean massa. Cum sociis natoque 
-penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu."
+          text="Our vision as a team is to build a product which will reflect our passion for smooth, transparent transactions, a product that embodies integrity as we stand in as an intermediary with the sole aim of bridging the gap between customers and their sales/purchase transactions."
         />
         <AboutCard
           containerClass="md:self-end bg-primary_8"
           header="Our Mission"
-          text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean 
-commodo ligula eget dolor. Aenean massa. Cum sociis natoque 
-penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. "
+          text="At COFAM MONEY, our mission is to become the best escrow service provider, aimed at ensuring that each user has a unique and unforgettable experience through the course of every transaction carried out on our platform."
         />
       </div>
     </div>
