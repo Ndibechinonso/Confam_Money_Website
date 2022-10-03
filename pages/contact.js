@@ -4,13 +4,13 @@ import { contactCardArray } from "../data";
 
 const Contact = () => {
   return (
-    <section className="px-[1.125rem] pt-8 md:px-[6.25rem] lg:px-[16.875rem] mb-[4.014rem] md:mb-[13.625rem]">
+    <section className="px-[1.125rem] pt-8 md:px-[6.25rem] mb-[4.014rem] md:mb-[13.625rem]">
       <PageIntro
         pageTitle
         title="Contact us"
         description="Let us help you solve your nagging isssues"
       />
-      <div className="grid grid-cols-1 md:grid-cols-3 mt-[4rem] md:mt-[7.438rem] gap-y-[4rem]">
+      <div className="grid grid-cols-1 xl:grid-cols-3 justify-between mt-[4rem] md:mt-[7.438rem] gap-y-[4rem] gap-x-[35px] bg-black">
         {contactCardArray.map((card, index) => {
           return (
             <Card
@@ -23,6 +23,7 @@ const Contact = () => {
               textClass="text-grey_2 text-[0.875rem] md:text-[1.25rem] leading-[1.5rem] md:leading-[1.875rem] px-[6px] mb-[0.75rem] md:mb-[1.313rem]"
               footerContent={card.footerContent}
               contactImage={card.cardImg}
+              
             />
           );
         })}

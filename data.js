@@ -291,13 +291,13 @@ export const contactCardArray = [
     cardImg: "/images/contact_2.png",
     header: "Email us",
     text: "For enquiry, partnership & sponsorship, We’ll be glad to work with you.",
-    footerContent: "Our-info-email@info.com",
+    footerContent: "hello@confammoney.com",
   },
   {
     cardImg: "/images/contact_3.png",
     header: "Office Address",
     text: "Give us a stop by our doorstep anytime, We’ll be glad to receive  you.",
-    footerContent: "No 43, kolade marcus street Ajah, Lagos, Nigeria",
+    footerContent: "Address: 27, Imototo Street, Surulere, Lagos.",
   },
 ];
 export const faqData = {
