@@ -1,21 +1,68 @@
-import Image from "next/image"
-import Button from "../Button"
-import { buyerPricingCardArray } from "../../data"
+import Image from "next/image";
+import { buyerPricingCardArray } from "../../data";
+import PricingBand1 from "../CustomIcons/PricingBand1";
+import PricingBand2 from "../CustomIcons/PricingBand2";
+import PricingCheck from "../CustomIcons/PricingCheck";
 
-const PricingCard = ({title, listArray, containerClass}) => {
-    return(
-        <div className={`${containerClass} rounded-2xl shadow-xl pt-[2.5rem] pb-[1.813rem] md:pb-[3.313rem] px-[1.125rem] md:px-[3rem] max-w-[324px] max-h-[437px] md:max-w-[605px] md:max-h-[605px]`}>
-<h4 className={`${title === 'BUYER' ? 'text-black_2' : 'text-white'} text-center text-[1.125rem] md:text-[2rem] font-semibold mb-[1rem] md:mb-[1.5rem]`}>{title}</h4>
-<p className={`${title === 'BUYER' ? 'text-grey_3' : 'text-white'} text-[0.875rem] md:text-[1.25rem] mb-[1.875rem] md:mb-[1.25rem] text-center`}>This is the only payment you’re meant to pay during
- transactions, no other hidden chrages</p>
- <div className="max-w-[220px] md:max-w-[300px] m-auto">
- <p className="flex flex-row items-end mb-[1.568rem] md:mb-[3.313rem]"><span className={`${title === 'BUYER' ? 'text-primary_5' : 'text-white'} flex flex-row gap-[1px] md:gap-x-[2px] text-[2.5rem] md:text-[4rem] font-semibold md:font-bold leading-[40px] md:leading-[60px]`}><span>N</span> <span>1500</span></span> <span className={`${title === 'BUYER' ? 'text-black_2' : 'text-white'}`}>/transaction</span></p>
+const PricingCard = () => {
+  return (
+    <div
+      className={`relative mb-[4.688rem] md:mb-[9.375rem] mt-[4.561rem] md:mt-[6.25rem] bg-white rounded-2xl shadow-pricing_card max-w-[324px] md:max-w-[966px] pt-[4.313rem] md:pt-10 pb-[3.563rem] md:pb-[4.25rem] px-0 md:px-[2.063rem] m-auto`}
+    >
+      <span className="hidden md:block absolute top-0 left-0">
+        <PricingBand1 />
+      </span>
+      <span className="hidden md:block absolute bottom-0 right-0"> 
+        <PricingBand2 />
+      </span>
+      <p
+        className={`hidden md:block text-grey_3 text-2xl font-medium max-w-[653px] m-auto text-center`}
+      >
+        These are the only payment you’re meant to pay during transactions, no
+        other hidden charges
+      </p>
+      <div className="text-grey_3 flex flex-row justify-between border-b-[1px] pb-4 px-10 mt-[3.188rem] text-base md:text-2xl font-semibold ">
+        <p>Rate</p> <p>Percentage (%)</p>
+      </div>
+      <div className="text-grey_1 flex flex-row justify-between b-grey_5 py-6 px-2.5 md:py-[2.213rem] md:px-[2.375rem] text-base md:text-2xl font-semibold border-b-[1px]">
+        <p className="flex flex-row gap-2 md:gap-x-6 items-center">
+          <PricingCheck /> 0.00 - 1,999,999.99
+        </p>
+        <p>2.00%</p>
+      </div>
+      <div className="text-grey_1 flex flex-row justify-between b-grey_5 py-6 px-2.5 md:py-[2.213rem] md:px-[2.375rem] text-base md:text-2xl font-semibold border-b-[1px]">
+        <p className="flex flex-col md:flex-row gap-1">
+          <p className="flex flex-row gap-2 md:gap-x-6 md:items-center items-start">
+            <PricingCheck />
+            <p className="flex flex-col md:flex-row gap-1 md:gap-2">
+              <p>2,000,000.00 -</p>
+              <p>9,999,999.99</p>
+            </p>
+          </p>
+        </p>
+        <p className="flex flex-col md:flex-row gap-1">
+          <p>50,000.00</p>
+          <p>Naira + 0.5%</p>
+        </p>
+      </div>
+      <div className="text-grey_1 flex flex-row justify-between b-grey_5 py-6 px-2.5 md:py-[2.213rem] md:px-[2.375rem] text-base md:text-2xl font-semibold border-b-[1px]">
+        <p className="flex flex-row gap-2 md:gap-x-6 items-center">
+          <PricingCheck /> Over 10,000,000
+        </p>
+        <p>1.00%</p>
+      </div>
+      <div className="text-center mt-[3.125rem] md:mt-[2.625rem]">
+        <a
+          href="https://buyer.confammoney.com/signup/buyer"
+          target="_blank"
+          rel="noreferrer"
+          className="text-white text-xl md:text-2xl font-medium py-2.5 md:py-4 w-full bg-primary_5 rounded-lg max-w-[200px] mmax-w-[364px] inline-block text-center m-auto"
+        >
+          Get started
+        </a>
+      </div>
+    </div>
+  );
+};
 
-     <ul className="text-center">{listArray.map((item, index) => <li key={index} className={`${title === 'BUYER' ? 'text-grey_3' : 'text-white'} flex flex-row gap-x-[26.58px] md:gap-x-[17px] mb-[1.5rem] md:mb-[1.875rem]`}><Image src={`${listArray === buyerPricingCardArray ? '/images/white-bullet.png' : '/images/blue-bullet.png'}`} width={23.42} height={23.42} /> <span>{item}</span></li> )}</ul>  
-     </div>  
-      <div className="text-center mt-[1.5rem] md:mt-[4.313rem]"><Button text="Get Started" className={`${title === 'BUYER' ? 'bg-primary_5 text-white' : 'text-primary_5 bg-white'} font-medium text-[1.125rem] md:text-[1.5rem] py-[9.5px] md:py-[16px] w-[200px] md:w-[364px] rounded-[5.77022px] md:rounded-lg`} /> </div>
-        </div>
-    )
-}
-
-export default PricingCard
+export default PricingCard;
