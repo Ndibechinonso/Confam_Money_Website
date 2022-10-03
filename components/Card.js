@@ -1,4 +1,5 @@
 import Image from "next/dist/client/image";
+
 const Card = ({
   cardClass,
   cardIcon,
@@ -11,7 +12,8 @@ const Card = ({
   usp,
   contact,
   contactImage,
-  footerContent
+  footerContent,
+  email
 }) => {
   return (
     <div className={`${cardClass} text-black_2 ${usp ? 'overflow-hidden' : ''}`}>
@@ -23,14 +25,14 @@ const Card = ({
               src="/images/pricing_card_band_2.png"
               width={183.51}
               height={40}
-            />{" "}
+            />
           </div>
           <div className="absolute -bottom-[20px] right-[0]">
             <Image
               src="/images/pricing_card_band_1.png"
               width={120}
               height={40}
-            />{" "}
+            />
           </div>
         </>
       ) : null}
@@ -47,7 +49,7 @@ const Card = ({
       <p className={`${textClass} font-normal`}>{cardText}</p>
 
 
-      {contact && <div className="bg-body_bg md:bg-white py-[12px]"><p>{footerContent}</p></div>}
+      {contact && <div className={`bg-body_bg md:bg-white py-[12px]`} >{footerContent !== "hello@confammoney.com" ? <p>{footerContent}</p> : <a href="mailto:hello@confammoney.com">{footerContent}</a>}</div>}
     </div>
   );
 };
