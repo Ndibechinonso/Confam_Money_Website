@@ -217,17 +217,6 @@ export const homeClientTestimoney = {
     },
   ],
 };
-export const buyerPricingCardArray = [
-  "VAT charges included",
-  "Escrow transaction fee",
-  "Dispute resolution fee",
-];
-
-export const sellerPricingCardArray = [
-  "Insurance fee",
-  "Transaction charges",
-  "Dispute resolution fee",
-];
 
 export const comfamGridArray = [
   {

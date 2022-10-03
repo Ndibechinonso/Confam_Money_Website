@@ -54,7 +54,7 @@ const ScamControlGrid = () => {
 
 <CardImageGrid
        gridContainer={gridContainer}
-        image="/images/scam_2.png"
+        image="/images/scam_4.png"
         header="Questionable payment approachs"
         containerClass=""
         imageClass="order-first"

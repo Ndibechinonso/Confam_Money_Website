@@ -1,5 +1,5 @@
 import PageIntro from "../components/PageIntro"
-import PricingCardGrid from "../components/Pricing/PricingCardGrid"
+import PricingCard from "../components/Pricing/PricingCard"
 import Usp from "../components/Pricing/Usp"
 const Pricing = () => {
     return(
@@ -11,7 +11,7 @@ const Pricing = () => {
         titleClass=""
         descriptionClass=""
       />
-  <PricingCardGrid />
+  <PricingCard />
   <Usp />
         </div>
     )
