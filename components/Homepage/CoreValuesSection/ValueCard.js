@@ -3,7 +3,7 @@ import React from "react";
 
 function ValueCard({ img, title, sub }) {
   return (
-    <div className="py-8 shadow-home_core_card px-[5px] pt-2 pb-[6px] border-solid border border-grey_6 rounded-lg flex flex-col items-center text-center sm:py-6 md:px-4 md:py-8">
+    <div className="p-3 shadow-home_core_card  border-solid border border-grey_6 rounded-lg flex flex-col items-center text-center sm:py-6 md:px-4 md:py-8">
       <div className="relative h-12 w-12">
         <Image src={img} layout="fill" className="absolute inset-0" />
       </div>

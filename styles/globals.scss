@@ -3,42 +3,42 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Calibre";
-    src: url("/fonts/CalibreRegular.otf");
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Calibre";
+  src: url("/fonts/CalibreRegular.otf");
+  font-weight: 400;
+  font-style: normal;
 }
 @font-face {
-    font-family: "Calibre",;
-    src: url("/fonts/CalibreMedium.otf");
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Calibre";
+  src: url("/fonts/CalibreMedium.otf");
+  font-weight: 500;
+  font-style: normal;
 }
 @font-face {
-    font-family: "Calibre",;
-    src: url("/fonts/CalibreSemibold.otf");
-    font-weight: 600;
-    font-style: normal;
-}       
+  font-family: "Calibre";
+  src: url("/fonts/CalibreSemibold.otf");
+  font-weight: 600;
+  font-style: normal;
+}
 @font-face {
-    font-family: "Calibre",;
-    src: url("/fonts/CalibreBold.otf");
-    font-weight: 700;
-    font-style: normal;
-}   
+  font-family: "Calibre";
+  src: url("/fonts/CalibreBold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
 
 *,
 body,
 html {
   box-sizing: border-box;
-//   font-family: "Calibre, ";
-  }
-body{
+  //   font-family: "Calibre, ";
+}
+body {
   overflow-x: hidden;
 }
 
 // html{
-  // font-size: 16px;
+// font-size: 16px;
 // }
 
 // *{
@@ -52,81 +52,88 @@ body {
   margin: 0;
 }
 
-.active{
-  color: #044DA1 !important;
+.active {
+  color: #044da1 !important;
 }
 @media only screen and (max-width: 1026px) {
-  .app_store_content{
+  .app_store_content {
     margin: auto !important;
   }
 }
 
 ul {
-	font-size: 13px;
-	// line-height: 1.5em;
-	// margin: 5px 0 15px;
-	// padding: 0;
-	li {
-		list-style: none;
-		position: relative;
-		padding: 0 0 0 30px;
-	}
-  .red_flags{
+  font-size: 13px;
+  // line-height: 1.5em;
+  // margin: 5px 0 15px;
+  // padding: 0;
+  li {
+    list-style: none;
+    position: relative;
+    // padding: 0 0 0 30px;
+  }
+  .red_flags {
     padding: 0 0 0 30px;
   }
 }
 
 ul.round {
-	li {
-		&::before {
-			content: "";
-			position: absolute;
-			left: 10px;
-			top: 12px;
-			width: 5px;
-			height: 5px;
-			background-color: #000000;
-			border-radius: 50%;
-			-moz-border-radius: 50%;
-			-webkit-border-radius: 50%;
-		}
-	}
+  li {
+    &::before {
+      content: "";
+      position: absolute;
+      left: 10px;
+      top: 12px;
+      width: 5px;
+      height: 5px;
+      background-color: #000000;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+    }
+  }
   .red_flags {
-		&::before {
-			left: 18px;
-	
-		}
-	}
+    &::before {
+      left: 18px;
+    }
+  }
 }
 
-.testimoney{
-
+.testimoney {
 }
 
-.center{
+.center {
   // background-color: red;
-  padding: 0 100px;
+  padding: 0 24px;
+
+  @media screen and (min-width: 1280px) {
+    padding: 0px 100px;
+  }
   // height: 410px;
 
   .slick-track,
-  .slick-list{
+  .slick-list {
     height: 100%;
   }
 
-  .slick-slide{
+  .slick-slide {
     height: 100%;
     // margin-right: 40px;
     padding: 20px;
-    display: flex !important;
+    @media screen and (min-width: 1280px) {
+      padding: 20px;
+    }
     row-gap: 36px;
     flex-direction: column;
     & > div {
       flex: 1;
-       & > div {
+      @media screen and (min-width: 1280px) {
+        &:first-child {
+          margin-bottom: 2.25rem;
+        }
+      }
+      & > div {
         height: max-content;
-       }
+      }
     }
-
-
   }
 }
