@@ -4,7 +4,7 @@ import { contactCardArray } from "../data";
 
 const Contact = () => {
   return (
-    <div className="px-[1.125rem] md:px-[6.25rem] mb-[4.014rem] md:mb-[13.625rem]">
+    <section className="px-[1.125rem] pt-8 md:px-[6.25rem] lg:px-[16.875rem] mb-[4.014rem] md:mb-[13.625rem]">
       <PageIntro
         pageTitle
         title="Contact us"
@@ -27,7 +27,7 @@ const Contact = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 

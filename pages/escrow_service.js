@@ -6,7 +6,7 @@ import Signup from "../components/EscrowService/Signup";
 
 const EscrowService = () => {
   return (
-    <div className="pb-[6.25rem] md:mb-[12.5rem]">
+    <div className="px-[1.125rem] pt-8 md:px-0  mb-[4.014rem] md:mb-[13.625rem]">
       <PageIntro
         pageTitle
         title="Escrow service"

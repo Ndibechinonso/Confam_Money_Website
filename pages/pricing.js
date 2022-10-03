@@ -3,7 +3,8 @@ import PricingCardGrid from "../components/Pricing/PricingCardGrid"
 import Usp from "../components/Pricing/Usp"
 const Pricing = () => {
     return(
-        <div>
+        // <div>
+        <div className="px-[1.125rem] pt-8 md:px-0">
   <PageIntro
   pageTitle
         title="Pricing"
