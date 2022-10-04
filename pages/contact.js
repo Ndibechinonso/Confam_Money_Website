@@ -10,13 +10,13 @@ const Contact = () => {
         <title>Confam Money Contact</title>
         <link rel="" href="" />
       </Head>
-      <man className="px-[1.125rem] pt-8 pb-16 md:pb-[14.125rem] md:px-[6.25rem] mb-[4.014rem] md:mb-[13.625rem]">
+      <man className="px-[1.125rem] pt-8 md:px-[6.25rem] mb-[4.014rem] md:mb-[13.625rem]">
         <PageIntro
           pageTitle
           title="Contact us"
           description="Let us help you solve your nagging isssues"
         />
-        <div className="grid grid-cols-1 xl:grid-cols-3 justify-between mt-[4rem] md:mt-[7.438rem] gap-y-[4rem] gap-x-[35px] bg-black">
+        <div className="grid grid-cols-1 xl:grid-cols-3 justify-between mt-[4rem] md:mt-[7.438rem] gap-y-[4rem] gap-x-[35px] pb-16 md:pb-[14.125rem] ">
           {contactCardArray.map((card, index) => {
             return (
               <Card
