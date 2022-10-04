@@ -20,7 +20,7 @@ function Faq() {
       <section className="mt-10 md:mt-12 px-[50px] pt-3 sm:pt-7 sm:pb-6 pb-1 sm: text-center  sm:mx-[3.125rem] rounded-[100px] bg-white">
         <p className="font-medium text-base text-black_2">
           Can’t find what you are looking for? &nbsp;
-          <a className="inline-block text-primary_5" href="" target="_blank">
+          <a className="inline-block text-primary_5" href="/contact">
             Contact Us
           </a>
         </p>

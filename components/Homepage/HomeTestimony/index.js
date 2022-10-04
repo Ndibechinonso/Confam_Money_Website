@@ -41,15 +41,13 @@ function TestimonySection() {
   }, [size.width]);
 
   return (
-    <article className="flex flex-col gap-y-8 pt-15 pb-16 sm:gap-y-8 lg:gap-y-[85px] lg:pt-[94px] lg:pb-[194px]">
+    <article className="flex flex-col gap-y-8 pt-15 pb-16 sm:gap-y-8 lg:gap-y-[85px] lg:pt-[94px] lg:pb-[194px] justify-center">
       <SectionTitle headerClassName="px-8" title={title} subtitle={subtitle} />
-      {/* <div className="px-6 pb-10 w-full overflow-scroll scroll-m-0 scroll- lg:px-[100px]"> */}
-      {/* <div className="px-1 flex gap-x-6 sm:grid sm:grid-rows-2 sm:overflow-x-scroll scroll-m-0 sm:grid-cols-[repeat(5,400px)] sm:gap-6 lg:gap-x-10 lg:gap-y-9  "> */}
-      <Slider className="testimoney" {...settings}>
+      <Slider className="" {...settings}>
         {cards.map(({ handle, image, testimony, title }) => (
           <div
             key={title}
-            className="flex flex-col gap-y-[0.875rem] lg:gap-y-7 bg-white shadow-home_testimony rounded-2_5 p-3 pb_5_5 lg:pt-[25px] lg:pr-[25px] lg:pb-[35px] lg:pl-5 min-w-[80%] max-w-[80%] w-[80%] h-full flex-auto sm:max-w-full sm:w-full "
+            className="flex flex-col gap-y-[0.875rem] lg:gap-y-7 bg-white shadow-home_testimony rounded-2_5 p-3 pb_5_5 lg:pt-[25px] lg:pr-[25px] lg:pb-[35px] lg:pl-5 min-w-[80%] h-full flex-auto sm:max-w-full sm:w-full m-auto"
           >
             <div className="flex items-center gap-x-[0.375rem]">
               <div className="relative w-8 h-8 lg:w-[50px] lg:h-[50px] rounded-circle">
@@ -74,8 +72,7 @@ function TestimonySection() {
           </div>
         ))}
       </Slider>
-      {/* </div> */}
-      {/* </div> */}
+
     </article>
   );
 }
