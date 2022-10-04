@@ -8,9 +8,7 @@ const Usp = () => {
         Our Priority is your satisfaction
       </h3>
       <p className="text-black_2 m-auto max-w-[298px] leading-[1.25rem] md:max-w-[828px] md:leading-[1.875rem] text-[1rem] md:text-[1.25rem]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
-        dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit.
+      At CONFAM MONEY, we go the extra mile to ensure the safety and security of our customers by including other features to ensure transactional credibility.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-x-[1.688rem] gap-y-[4.625rem] mt-[1.5rem] md:mt-[4.5rem] justify-items-center">
         {uspArray.map((card, index) => {

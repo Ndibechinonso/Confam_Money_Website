@@ -1,3 +1,4 @@
+import Head from "next/head";
 import PageIntro from "../components/PageIntro";
 import { escrowCardArray } from "../data";
 import EscrowCard from "../components/EscrowService/EscrowCard";
@@ -6,7 +7,12 @@ import Signup from "../components/EscrowService/Signup";
 
 const EscrowService = () => {
   return (
-    <div className="px-[1.125rem] pt-8 md:px-0  mb-[4.014rem] md:mb-[13.625rem]">
+    <>
+    <Head>
+      <title>Confam Money Escrow Service</title>
+      <link rel="" href="" />
+    </Head>
+    <main className="px-[1.125rem] pt-8 md:px-0  mb-[4.014rem] md:mb-[13.625rem]">
       <PageIntro
         pageTitle
         title="Escrow service"
@@ -27,9 +33,9 @@ const EscrowService = () => {
         })}
       </div>
       <Testimonials />
-
       <Signup />
-    </div>
+    </main>
+    </>
   );
 };
 

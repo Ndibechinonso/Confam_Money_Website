@@ -7,12 +7,11 @@ import TestimonySection from "../components/Homepage/HomeTestimony";
 
 const Home = () => {
   return (
-    <div className="">
+    <>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Confam Money Home</title>
+        <link rel="" href="" />
       </Head>
-
       <main className="w-full">
         <HeroSection />
         <CoreValuesSection />
@@ -20,7 +19,7 @@ const Home = () => {
         <HowItworksSection />
         <TestimonySection />
       </main>
-    </div>
+    </>
   );
 };
 

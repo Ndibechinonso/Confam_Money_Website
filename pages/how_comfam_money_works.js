@@ -1,8 +1,15 @@
+import Head from "next/head";
 import PageIntro from "../components/PageIntro";
 import ConfamGrid from "../components/HowComfamMoneyWorks/ConfamGrid";
+
 const HowComfamMoneyWorks = () => {
   return (
-    <div className="px-[1.125rem] pt-8 md:px-0 mb-[7.333rem] md:mb-[4.938rem]">
+    <>
+      <Head>
+    <title>How Confam Money Works</title>
+    <link rel="" href="" />
+  </Head>
+    <main className="px-[1.125rem] pt-8 md:px-0 mb-[7.333rem] md:mb-[4.938rem]">
       <PageIntro
         pageTitle
         title="How Confam Money Works"
@@ -11,9 +18,9 @@ const HowComfamMoneyWorks = () => {
         The platform’s transactions are strict, transparent and have a well-structured security system. As an intermediary, third-party platform that manages and ensures seamless purchase and sales of goods/services between its users, CONFAM MONEY ensures that all transactions are void of ambiguity.
         "
       />
-
       <ConfamGrid />
-    </div>
+    </main>
+    </>
   );
 };
 
