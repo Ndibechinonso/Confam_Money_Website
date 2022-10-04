@@ -10,7 +10,7 @@ const Contact = () => {
         <title>Confam Money Contact</title>
         <link rel="" href="" />
       </Head>
-      <man className="px-[1.125rem] pt-8 md:px-[6.25rem] mb-[4.014rem] md:mb-[13.625rem]">
+      <man className="px-[1.125rem] pt-8 pb-16 md:pb-[14.125rem] md:px-[6.25rem] mb-[4.014rem] md:mb-[13.625rem]">
         <PageIntro
           pageTitle
           title="Contact us"
