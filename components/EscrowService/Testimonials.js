@@ -10,7 +10,7 @@ const Testimonials = () => {
         </h4>
         <PageIntro
           title="Join more than 1000 happy clients"
-          description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Aenean massa.consectetuer adipiscing elit. Aenean commodo ligula"
+          description="Our innovative approach with CONFAM MONEY is aimed at curbing the rise in cybercrimes, tackling the wire and fraud problem faced by Escrow Services and providing a secure platform that carries out strict and transparent transactions with user verification, authentication and end-to-end encryption; This communicates to our users that their transactions are overseen and their interests are upheld to ensure their experience on the platform is distinctive."
           titleClass="text-black_2 text-[1.5rem] m-auto md:ml-0 md:text-[2.5rem] font-semibold leading-[1.5rem] md:leading-[2.5rem] max-w-[268px] md:max-w-[446px] text-center md:text-left mb-[1.5rem] md:mb-[1.75rem]"
           descriptionClass="text-black_3 text-[1rem] md:text-[1.25rem] leading-[1.5rem] md:leading-[1.875rem] mb-[1.5rem] md:mb-[3.625rem]"
         />
