@@ -104,7 +104,7 @@ const Navbar = () => {
 
           <div className="-mr-2 flex lg:hidden   items-center">
             <a
-              href="https://buyer.confammoney.com/signin/buyer"
+              href="https://buyer.confammoney.com/signin"
               target="_blank"
               rel="noreferrer"
               className={`cursor-pointer text-primary_2 font-medium text-[0.875rem] mr-[1.125rem]`}
