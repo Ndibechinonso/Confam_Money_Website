@@ -8,8 +8,8 @@ import { Transition } from "@headlessui/react";
 import CloseBtn from "./CustomIcons/CloseBtn";
 import HamburgerOpen from "./CustomIcons/HamburgerOpen";
 
-const signInLink = "https://buyer.confammoney.com/signin/buyer"
-const signUpLink = "https://buyer.confammoney.com/signup/buyer"
+const signInLink = "https://buyer.confammoney.com/signin";
+const signUpLink = "https://buyer.confammoney.com/signup";
 
 const Navbar = () => {
   const router = useRouter();
@@ -114,7 +114,6 @@ const Navbar = () => {
             </a>
 
             <DropDown
-           
               contentClassName="bg-white text-center mr-3 rounded-xl border border-light_d1 shadow-hamburger"
               trigger={
                 <button
@@ -128,7 +127,7 @@ const Navbar = () => {
               }
             >
               <DropDownItem className="flex flex-col items-end pr-[17px] pt-[17px]">
-         <CloseBtn />
+                <CloseBtn />
               </DropDownItem>
               <DropDownItem className="pb-[14px]">
                 <button onClick={() => router.push("/pricing")}>
@@ -154,15 +153,14 @@ const Navbar = () => {
                 </button>
               </DropDownItem>
               <DropDownItem className="p-6">
-           
-                    <a
-              href={signUpLink}
-              target="_blank"
-              rel="noreferrer"
-              className={`mob_shop_btn font-14 min-w-full px-6 py-1.5 bg-btn_bg rounded text-white`}
-            >
-              Get Started
-            </a>
+                <a
+                  href={signUpLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  className={`mob_shop_btn font-14 min-w-full px-6 py-1.5 bg-btn_bg rounded text-white`}
+                >
+                  Get Started
+                </a>
               </DropDownItem>
             </DropDown>
           </div>
