@@ -98,18 +98,13 @@ ul.round {
   }
 }
 
-.testimoney {
-}
 
 .center {
-  // background-color: red;
   padding: 0 24px;
-
   @media screen and (min-width: 1280px) {
     padding: 0px 100px;
   }
   // height: 410px;
-
   .slick-track,
   .slick-list {
     height: 100%;
@@ -117,7 +112,6 @@ ul.round {
 
   .slick-slide {
     height: 100%;
-    // margin-right: 40px;
     padding: 20px;
     @media screen and (min-width: 1280px) {
       padding: 20px;

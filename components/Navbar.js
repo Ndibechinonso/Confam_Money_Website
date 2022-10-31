@@ -4,14 +4,16 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import DropDown from "./customdropdown/primitive/DropDown";
 import DropDownItem from "./customdropdown/primitive/DropDownItem";
-import Button from "./Button";
-// import styles from "../styles/Home.module.css";
 import { Transition } from "@headlessui/react";
+import CloseBtn from "./CustomIcons/CloseBtn";
+import HamburgerOpen from "./CustomIcons/HamburgerOpen";
+
+const signInLink = "https://buyer.confammoney.com/signin";
+const signUpLink = "https://buyer.confammoney.com/signup";
 
 const Navbar = () => {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
-
   const [changeNavbar, setChangeNavbar] = useState(false);
   const changeBackground = () => {
     if (window.scrollY >= 20) {
@@ -37,7 +39,6 @@ const Navbar = () => {
     { name: "Pricing", routepath: "/pricing" },
     { name: "About Us", routepath: "/about_us" },
   ];
-  // bg-gradient-to-t from-[rgba(255,255,255,0.4)] to-[rgba(255,255,255,0.1)]
 
   return (
     <nav
@@ -85,7 +86,7 @@ const Navbar = () => {
           </div>
           <div className="justify-content-end hidden lg:block">
             <a
-              href="https://buyer.confammoney.com/signin/buyer"
+              href={signInLink}
               target="_blank"
               rel="noreferrer"
               className={`cursor-pointer text-primary_2 font-medium text-[1.25rem] mr-[1.125rem] md:mr-[1.78rem]`}
@@ -93,7 +94,7 @@ const Navbar = () => {
               Sign In
             </a>
             <a
-              href="https://buyer.confammoney.com/signup/buyer"
+              href={signUpLink}
               target="_blank"
               rel="noreferrer"
               className={`bg-btn_bg cursor-pointer text-white font-medium text-[1.25rem] py-[10px] px-[30px] rounded-lg`}
@@ -102,9 +103,9 @@ const Navbar = () => {
             </a>
           </div>
 
-          <div className="-mr-2 flex lg:hidden   items-center">
+          <div className="-mr-2 flex lg:hidden items-center">
             <a
-              href="https://buyer.confammoney.com/signin"
+              href={signInLink}
               target="_blank"
               rel="noreferrer"
               className={`cursor-pointer text-primary_2 font-medium text-[0.875rem] mr-[1.125rem]`}
@@ -113,7 +114,7 @@ const Navbar = () => {
             </a>
 
             <DropDown
-              contentClassName="bg-white  text-center mr-3 rounded-xl border border-light_d1 shadow-hamburger"
+              contentClassName="bg-white text-center mr-3 rounded-xl border border-light_d1 shadow-hamburger"
               trigger={
                 <button
                   type="button"
@@ -121,42 +122,45 @@ const Navbar = () => {
                   aria-controls="mobile-menu"
                   aria-expanded="false"
                 >
-                  <Image
-                    src="/images/hamburgerOpen.svg"
-                    height={24}
-                    width={24}
-                  />
+                  <HamburgerOpen />
                 </button>
               }
             >
-              <DropDownItem className="pt-[27px] pb-[18px]">
-                <button onClick={() => router.push("/")}>
+              <DropDownItem className="flex flex-col items-end pr-[17px] pt-[17px]">
+                <CloseBtn />
+              </DropDownItem>
+              <DropDownItem className="pb-[14px]">
+                <button onClick={() => router.push("/pricing")}>
                   <span
                     className={`nav-link text-[18px] font-medium text-sm block ${routeIndicator(
-                      "/"
+                      "/pricing"
                     )}`}
                     aria-current="page"
                   >
-                    Home
+                    Pricing
                   </span>
                 </button>
               </DropDownItem>
               <DropDownItem className="border-t border-b border-solid border-light_d1 pt-[17px] pb-[14px]">
-                <button onClick={() => router.push("/contact")}>
+                <button onClick={() => router.push("/about_us")}>
                   <span
                     className={`nav-link text-sm block font-medium ${routeIndicator(
-                      "/contact"
+                      "/about_us"
                     )}`}
                   >
-                    Contact
+                    About Us
                   </span>
                 </button>
               </DropDownItem>
               <DropDownItem className="p-6">
-                <Button
-                  text="Get Started"
+                <a
+                  href={signUpLink}
+                  target="_blank"
+                  rel="noreferrer"
                   className={`mob_shop_btn font-14 min-w-full px-6 py-1.5 bg-btn_bg rounded text-white`}
-                />
+                >
+                  Get Started
+                </a>
               </DropDownItem>
             </DropDown>
           </div>

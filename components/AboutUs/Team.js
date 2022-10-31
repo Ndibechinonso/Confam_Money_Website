@@ -10,6 +10,7 @@ const Team = () => {
         {teamArray.map((card, index) => {
           return (
             <Card
+            key={index}
               index={index}
               cardClass="w-[300px]"
               cardIcon={card.image}

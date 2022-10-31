@@ -21,7 +21,7 @@ const HeroSection = () => {
           for Business and Individual across Nigeria
         </h5>
         <a
-          href=""
+          href="https://buyer.confammoney.com/signup/buyer"
           target="_blank"
           rel="noreferrer"
           className={`bg-btn_bg cursor-pointer text-white font-medium text-[1.25rem] py-[10px] px-[30px] rounded-lg mt-[30px] inline-block lg:mt-6`}

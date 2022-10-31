@@ -80,8 +80,7 @@ module.exports = {
         hero_mobile: "10px 15px 30px 0px #29292A80",
         hamburger: "0px 1px 20px 0px #0000000F",
         header: "0px 0.6525956988334656px 15.662297248840332px -0.6525956988334656px #0000001A",
-
-
+        pricing_card: "box-shadow: 6px 5px 17px rgba(156, 149, 149, 0.06);"
       },
     },
 

@@ -1,3 +1,4 @@
+import Head from "next/head";
 import React from "react";
 import PageIntro from "../components/PageIntro";
 import { terms_condition } from "../data";
@@ -5,7 +6,12 @@ import { terms_condition } from "../data";
 function TermsAndCondition() {
   const { page_title, terms } = terms_condition;
   return (
-    <div className="mb-[7.333rem] md:mb-[4.938rem]">
+    <>
+    <Head>
+      <title>Confam Money Terms and Conditions</title>
+      <link rel="" href="" />
+    </Head>
+    <main className="mb-[7.333rem] md:mb-[4.938rem]">
       <PageIntro
         containerClass="flex flex-col gap-[1rem] md:gap-[1.5rem] lg:gap-14 xl:gap-[95px] items-center"
         titleClass={
@@ -25,7 +31,8 @@ function TermsAndCondition() {
           </section>
         ))}
       </article>
-    </div>
+    </main>
+    </>
   );
 }
 

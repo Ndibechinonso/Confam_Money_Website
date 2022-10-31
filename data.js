@@ -41,14 +41,14 @@ export const uspArray = [
 ];
 
 export const teamArray = [
-  { image: "/images/team_1.png", name: "John Doe", position: "position" },
-  { image: "/images/team_2.png", name: "John Doe", position: "position" },
-  { image: "/images/team_3.png", name: "John Doe", position: "position" },
-  { image: "/images/team_4.png", name: "John Doe", position: "position" },
-  { image: "/images/team_5.png", name: "John Doe", position: "position" },
-  { image: "/images/team_6.png", name: "John Doe", position: "position" },
-  { image: "/images/team_7.png", name: "John Doe", position: "position" },
-  { image: "/images/team_8.png", name: "John Doe", position: "position" },
+  { image: "/images/team_1.png", name: "Adenike Cecilia Ayoola", position: "Manager" },
+  { image: "/images/team_2.png", name: "Jude Aaron Osasse", position: "Administrator" },
+  { image: "/images/team_3.png", name: " Ikechukwu David Anya", position: "Data Specialist" },
+  { image: "/images/team_4.png", name: "Ikechukwu David Anya", position: "Underwriting Counselor" },
+  { image: "/images/team_5.png", name: "Ekemini Sunday", position: "Accountant" },
+  { image: "/images/team_6.png", name: "Frances Daniels", position: "Designer" },
+  { image: "/images/team_7.png", name: "Justus Obioha", position: "Designer" },
+  { image: "/images/team_8.png", name: "Barakat Omoniyi", position: "Human Resources" },
 ];
 
 export const homeWhyUs = [
@@ -217,17 +217,6 @@ export const homeClientTestimoney = {
     },
   ],
 };
-export const buyerPricingCardArray = [
-  "VAT charges included",
-  "Escrow transaction fee",
-  "Dispute resolution fee",
-];
-
-export const sellerPricingCardArray = [
-  "Insurance fee",
-  "Transaction charges",
-  "Dispute resolution fee",
-];
 
 export const comfamGridArray = [
   {
@@ -302,13 +291,13 @@ export const contactCardArray = [
     cardImg: "/images/contact_2.png",
     header: "Email us",
     text: "For enquiry, partnership & sponsorship, We’ll be glad to work with you.",
-    footerContent: "Our-info-email@info.com",
+    footerContent: "hello@confammoney.com",
   },
   {
     cardImg: "/images/contact_3.png",
     header: "Office Address",
     text: "Give us a stop by our doorstep anytime, We’ll be glad to receive  you.",
-    footerContent: "No 43, kolade marcus street Ajah, Lagos, Nigeria",
+    footerContent: "Address: 27, Imototo Street, Surulere, Lagos.",
   },
 ];
 export const faqData = {
