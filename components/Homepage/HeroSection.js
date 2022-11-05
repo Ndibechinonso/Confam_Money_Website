@@ -17,8 +17,8 @@ const HeroSection = () => {
           Make Safe and Secure <br /> Payment
         </h1>
         <h5 className="font-normal text-grey_2 text-base mt-4 md:text-xl lg:mt-6 lg:text-[2rem] lg:leading-10 ">
-          Confam Money Provides payment services <br />
-          for Business and Individual across Nigeria
+          Payment Security Services <br /> for business and individuals across
+          Nigeria
         </h5>
         <a
           href="https://buyer.confammoney.com/signup/buyer"

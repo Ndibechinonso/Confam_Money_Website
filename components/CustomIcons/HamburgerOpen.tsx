@@ -1,11 +1,32 @@
-import * as React from "react"
-import { SVGProps } from "react"
+import * as React from "react";
+import { SVGProps } from "react";
 
 const HamburgerOpen = (props: SVGProps<SVGSVGElement>) => (
-<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M5 7.125H19" stroke="#00003D" stroke-width="2" stroke-linecap="round"/>
-<path d="M5 12.125H19" stroke="#00003D" stroke-width="2" stroke-linecap="round"/>
-<path d="M5 17.125H19" stroke="#00003D" stroke-width="2" stroke-linecap="round"/>
-</svg>
-)
-export default HamburgerOpen
+  <svg
+    width="24"
+    height="25"
+    viewBox="0 0 24 25"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M5 7.125H19"
+      stroke="#00003D"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+    <path
+      d="M5 12.125H19"
+      stroke="#00003D"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+    <path
+      d="M5 17.125H19"
+      stroke="#00003D"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+  </svg>
+);
+export default HamburgerOpen;

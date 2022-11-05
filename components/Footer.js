@@ -187,7 +187,7 @@ const Footer = () => {
       </div>
       <div className="pt-[1.5rem] md:pt-[2rem] text-center">
         <div className="text-grey_3 text-[0.875rem] md:text-[1.125rem]">
-          © 2022 Confam Money. All rights reserved
+          © {new Date().getFullYear()} Confam Escrow Services By Beta
         </div>
       </div>
     </div>
